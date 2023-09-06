@@ -14,7 +14,7 @@ This README file contains a detailed description of the Project Review Applicati
 - **CorsConfig**: A class that configures CORS (Cross-Origin Resource Sharing) settings.
 - **pom.xml**: File containing Maven project dependencies and settings.
 
-  ### Addictions
+## Addictions
 The project includes the following important dependencies:
 
 - **Spring Boot Starter Data JPA**: Used for database operations.
