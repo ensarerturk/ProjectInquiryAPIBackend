@@ -68,9 +68,9 @@ The project works with a PostgreSQL database. You can configure your database co
 
 Example application.properties file:
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/proje_veritabani
-spring.datasource.username=kullanici_adi
-spring.datasource.password=sifre
+spring.datasource.url=jdbc:postgresql://localhost:5432/project_database
+spring.datasource.username=username
+spring.datasource.password=password
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 ```
 ### Addictions
