@@ -14,6 +14,16 @@ This README file contains a detailed description of the Project Review Applicati
 - **CorsConfig**: A class that configures CORS (Cross-Origin Resource Sharing) settings.
 - **pom.xml**: File containing Maven project dependencies and settings.
 
+  ### Addictions
+The project includes the following important dependencies:
+
+- **Spring Boot Starter Data JPA**: Used for database operations.
+- **Spring Boot Starter Web**: Spring Boot Starter required for web applications.
+- **PostgreSQL**: Used for PostgreSQL database connection.
+- **Lombok**: Used to make Java classes simpler.
+- **MapStruct**: Used for object transformations.
+- **Spring Boot Starter Test**: Used for testing purposes.
+
 ## API Endpoints
 The application offers the following API endpoints:
 1. **List All Projects**:
@@ -73,12 +83,4 @@ spring.datasource.username=username
 spring.datasource.password=password
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 ```
-### Addictions
-The project includes the following important dependencies:
 
-- **Spring Boot Starter Data JPA**: Used for database operations.
-- **Spring Boot Starter Web**: Spring Boot Starter required for web applications.
-- **PostgreSQL**: Used for PostgreSQL database connection.
-- **Lombok**: Used to make Java classes simpler.
-- **MapStruct**: Used for object transformations.
-- **Spring Boot Starter Test**: Used for testing purposes.
